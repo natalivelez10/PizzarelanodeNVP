@@ -1,0 +1,16 @@
+ <section>
+        <div class="contenedor-form">
+            <div class="toggle">
+                <span><a href="login.html">Iniciar sesion</a></span>
+            </div>
+            <div class="formulario">
+                <h2>Crea Tu Cuenta</h2>
+                <form action="/crearcuenta" method="POST">
+                    <input type="text" placeholder="Nombre Completo" required name="usuario" id="usuario">
+                    <input type="password" placeholder="contraseña" required name="contraseña" id="contrasena">
+                    <input type="email" placeholder="Correo Electronico" required  name="correo" id="correo">
+                    <input type="text" placeholder="Celular" required name="celular" id="celular">
+                    <input type="submit" value="Registrarse" onclick="registrar()">
+                </form>
+            </div>
+    </section>
